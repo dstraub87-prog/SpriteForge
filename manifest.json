@@ -1,0 +1,46 @@
+{
+  "base": [
+    "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Crect width='100%25' height='100%25' fill='%23e6d8c3'/%3E%3Ccircle cx='16' cy='10' r='6' fill='%23f5d3b3' stroke='%23000'/%3E%3Crect x='8' y='16' width='16' height='12' fill='%23c9b79a' stroke='%23000'/%3E%3C/text x='16' y='31' font-size='6' text-anchor='middle' fill='%23333'%3Emale%3C/text%3E%3C/svg%3E",
+    "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Crect width='100%25' height='100%25' fill='%23dfeaf6'/%3E%3Ccircle cx='16' cy='10' r='6' fill='%23f7e6d9' stroke='%23000'/%3E%3Crect x='8' y='16' width='16' height='12' fill='%23d0e0f0' stroke='%23000'/%3E%3C/text x='16' y='31' font-size='6' text-anchor='middle' fill='%23333'%3Efemale%3C/text%3E%3C/svg%3E"
+  ],
+  "hair": [
+    "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M6 10 q10 -8 20 0 v4 q-10 -5 -20 0 z' fill='%232f1b0c'/%3E%3C/svg%3E",
+    "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M6 10 q10 -5 20 0 v4 q-10 -5 -20 0 z' fill='%23a26024'/%3E%3C/svg%3E"
+  ],
+  "clothes": [
+    "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Crect x='9' y='15' width='14' height='12' fill='%236b8fb0' stroke='%23000'/%3E%3C/svg%3E",
+    "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Crect x='9' y='15' width='14' height='12' fill='%237a3b3b' stroke='%23000'/%3E%3C/svg%3E"
+  ],
+  "weapon": [
+    "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Crect x='22' y='14' width='8' height='3' fill='%23bbb'/%3E%3Crect x='23' y='10' width='2' height='8' fill='%236b4f3d'/%3E%3C/svg%3E",
+    "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ccircle cx='24' cy='12' r='3' fill='%23d4af37'/%3E%3Crect x='23' y='15' width='2' height='8' fill='%236b4f3d'/%3E%3C/svg%3E"
+  ],
+  "shield": [
+    "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M11 12 q8 13 10 0 v12 q-8 10 -10 0 z' fill='%236e8b6e' stroke='%23000'/%3E%3C/svg%3E"
+  ],
+  "accessory": [
+    "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ccircle cx='8' cy='10' r='2' fill='%23ffd34d'/%3E%3C/svg%3E"
+  ],
+  "outline": [
+    "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Crect x='0.5' y='0.5' width='31' height='31' fill='none' stroke='%23000' stroke-opacity='0.15'/%3E%3C/svg%3E"
+  ],
+  "shadow": [
+    "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cellipse cx='16' cy='30' rx='10' ry='3' fill='%23000' fill-opacity='0.35'/%3E%3C/svg%3E"
+  ],
+  "presets": {
+    "Knight": {"male": "knight_male", "female": "knight_female"},
+    "Mage": {"male": "mage_male", "female": "mage_female"},
+    "Rogue": {"male": "rogue_male", "female": "rogue_female"},
+    "Healer": {"male": "healer_male", "female": "healer_female"}
+  },
+  "presets_map": {
+    "knight_male": {"layers": {"base":0,"hair":0,"clothes":1,"weapon":0,"shield":0}},
+    "knight_female": {"layers": {"base":1,"hair":1,"clothes":1,"weapon":0,"shield":0}},
+    "mage_male": {"layers": {"base":0,"hair":0,"clothes":0,"weapon":1,"accessory":0}},
+    "mage_female": {"layers": {"base":1,"hair":0,"clothes":0,"weapon":1,"accessory":0}},
+    "rogue_male": {"layers": {"base":0,"hair":0,"clothes":0,"weapon":0,"accessory":0}},
+    "rogue_female": {"layers": {"base":1,"hair":1,"clothes":0,"weapon":0,"accessory":0}},
+    "healer_male": {"layers": {"base":0,"hair":0,"clothes":0,"accessory":0,"weapon":1}},
+    "healer_female": {"layers": {"base":1,"hair":0,"clothes":0,"accessory":0,"weapon":1}}
+  }
+}
