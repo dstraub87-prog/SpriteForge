@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SpriteForge v1 — 32×32</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>SpriteForge v1 — 32×32</h1>
+    <div class="controls">
+      <select id="class-select">
+        <option value="knight">Knight</option>
+        <option value="mage">Mage</option>
+        <option value="rogue">Rogue</option>
+        <option value="healer">Healer</option>
+      </select>
+
+      <select id="gender-select">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+
+      <button id="btn-apply">Apply Preset</button>
+      <button id="btn-export">Export PNG</button>
+    </div>
+  </header>
+
+  <main>
+    <aside class="left">
+      <h3>Layer Order</h3>
+      <div id="layer-list"></div>
+      <hr/>
+      <h3>Assets (click to assign)</h3>
+      <div id="asset-list"></div>
+    </aside>
+
+    <section class="center">
+      <div id="canvas-wrap">
+        <canvas id="sprite-canvas" width="32" height="32"></canvas>
+        <div id="preview-grid"></div>
+      </div>
+    </section>
+
+    <aside class="right">
+      <h3>Settings</h3>
+      <label>Grid columns: <input id="cols" type="number" min="1" max="8" value="4"></label>
+      <label>Scale: <input id="scale" type="number" min="1" max="8" value="6"></label>
+      <hr/>
+      <p>Drop your own PNGs into assets and update <code>config/manifest.json</code> for full replacement.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <small>SpriteForge v1 — 32×32 demo. Replace embedded assets with real PNGs when ready.</small>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
